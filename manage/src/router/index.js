@@ -6,6 +6,7 @@ import {
     Video,
     Login
 } from "@views"
+import PhoneLogin from "@views/Login/phoneLogin"
 
 export const tabBarRoute = [
     {
@@ -66,6 +67,15 @@ export const noTabBarRoute=[
         meta:{
             flag:false,
         },
+        
+    },
+    {
+        path:"/phoneLogin",
+        name:"手机登录",
+        component:PhoneLogin,
+        meta:{
+            flag:false,
+        }
     }
 
 ]
