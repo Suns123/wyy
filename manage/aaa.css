@@ -1,0 +1,16 @@
+*{
+    padding:2.693333rem;
+    overflow:auto;
+    width: 30px;
+    width: .237288rem
+    height:.169492rem
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+    display: inline-block
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    outline: none
+}

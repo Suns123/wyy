@@ -25,9 +25,33 @@ const Video = Loadable({
     loader:()=>import("./Video/index"),
     loading:Loading
 })
+const VideoScene=Loadable({
+    loader:()=>import("./Video/scene/index"),
+    loading:Loading
+})
+const VideoDance=Loadable({
+    loader:()=>import("./Video/dance/index"),
+    loading:Loading
+})
+const VideoCover=Loadable({
+    loader:()=>import("./Video/cover/index"),
+    loading:Loading
+})
+const VideoBGM=Loadable({
+    loader:()=>import("./Video/BGM/index"),
+    loading:Loading
+})
+const VideoACG=Loadable({
+    loader:()=>import("./Video/ACG/index"),
+    loading:Loading
+})
 
 const Login = Loadable({
     loader:()=>import("./Login/index"),
+    loading:Loading
+})
+const VideoDet=Loadable({
+    loader:()=>import("./videoDet/index"),
     loading:Loading
 })
 
@@ -38,5 +62,11 @@ export {
     CloudVillage,
     My,
     Video,
-    Login
+    Login,
+    VideoScene,
+    VideoDance,
+    VideoCover,
+    VideoBGM,
+    VideoACG,
+    VideoDet,
 }

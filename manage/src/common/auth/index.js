@@ -5,7 +5,7 @@ export default (PageWrapper)=>{
         render() {
             let {path,meta} = this.props
             //判断当前组件是否需要权限校验 并且路径不为login
-            if(meta.auth && path!="/login"){
+            if(meta.auth && path !=="/login"){
                 //判断用户是否登陆
                 let token = sessionStorage.getItem("token")
                 

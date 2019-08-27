@@ -4,9 +4,11 @@ import {
     CloudVillage,
     My,
     Video,
-    Login
-} from "@views"
-import PhoneLogin from "@views/Login/phoneLogin"
+    Login,
+    VideoDet,
+} from "../views"
+import PhoneLogin from "../views/Login/phoneLogin"
+import {videoRoute} from "./video"
 
 export const tabBarRoute = [
     {
@@ -18,7 +20,6 @@ export const tabBarRoute = [
             flag:true
         },
     },
-    
     {
         path:"/video",
         name:"视频",
@@ -26,7 +27,8 @@ export const tabBarRoute = [
         icon:"\ue623",
         meta:{
             flag:true,
-        }
+        },
+        children: videoRoute
     },
     {
         path:"/mymusic",
@@ -54,7 +56,7 @@ export const tabBarRoute = [
         icon:"\ue603",
         meta:{
             flag:true,
-            auth:true
+            auth:false
         }
     },
     
@@ -76,8 +78,16 @@ export const noTabBarRoute=[
         meta:{
             flag:false,
         }
+    },
+    {
+        path:"/videoDet/:vid",
+        name:"视频详情",
+        component:VideoDet,
+        meta:{
+            flag:false
+        }
     }
-
+    // ...videoRoute
 ]
 
 export const routeConfig=tabBarRoute.concat(noTabBarRoute)
