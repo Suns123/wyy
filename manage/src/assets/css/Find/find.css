@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0
+}
+.myFindNav_wn{
+    display:flex;
+    justify-content:space-between;
+    padding:0 0.32rem;
+    margin-top: 0.44rem;
+    text-align: center;
+}
+.myFindNav_wn p{
+    margin-top: 0.24rem;
+    font-size:0.22rem;
+    color:#6a6f6b
+}
+.wnHeader,.songlist_header{
+    display: flex;
+    justify-content: space-between;
+    margin-top:0.5rem;
+    padding: 0 0.32rem;
+}
+.songlist_header{
+    padding: 0;
+}
+.wnHeader input{
+    margin-top:-0.08rem 
+}
+.swiper-slide img{
+    width:6.86rem;
+    height:2.67rem
+}
+.navIconCircle_wn{
+    display: inline-block;
+    width: 0.83rem;
+    height: 0.83rem;
+    border-radius: 50%;
+    background:#f6443a;
+    line-height: 0.93rem;
+    
+}
+.myFindNav_wn i{
+    font-size: 0.44rem;
+    color:white
+}
+.swiper-container{
+    height: 2.67rem;
+    width:6.86rem;
+    margin-top:0.4rem;
+}
+.serachIndex_wn{
+    color:#cfcfcf;
+    width:4.5rem;
+    height:0.6rem;
+    background:#f7f7f7;
+    border:none;
+    border-radius: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.serachIndex_wn input{
+    margin-left: 0.11rem;
+    outline: none;
+    border:none;
+    background: #f7f7f7;
+}
+.search_search_wn{
+    display: inline-block;
+    color:#cfcfcf;
+    width:5.25rem;
+    height:0.7rem;
+    background:#f7f7f7;
+    border:none;
+    border-radius: 0.3rem;
+    text-align: center;
+    margin-top:0.3rem;
+    line-height:0.7rem
+}
+.search_search_wn input{
+    border:none;
+    outline: none;
+    background:#f7f7f7;
+}
+.myFindBanner{
+    margin-top:0.4rem;
+    padding: 0 0.32rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.line_wn{
+    width:100%;
+    height: 0.01rem;
+    background:#e4e4e4;
+    margin-top:0.44rem;
+}
+/* 歌单 */
+.songlist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    padding:0 0.32rem;
+}
+
+.songlist img{
+    border-radius: 0.05rem;
+    
+}
+.SongListWarp{
+    padding: 0 0.32rem;
+}
+.name{
+    width:1.8rem;
+    font-size: 0.25rem;
+    text-align: left;
+    word-wrap:break-word;
+    margin-top: 0.18rem;
+    margin-bottom: 0.42rem;
+    line-height: 1.5;
+}
+.sonlistSquare{
+    font-size: 0.25rem;
+    line-height:0.52rem;
+    text-align: center; 
+    display: inline-block;
+    width:1.53rem;
+    height: 0.52rem;
+    border: 0.01rem solid #e3e3e3;
+    border-radius: 0.2rem;
+}
+.sonList_wn{
+    display: flex;
+    justify-content:space-between ;
+    padding:0 0.32rem;
+}
+.sonList_wn .s{
+    font-size: 0.34rem;
+    font-weight: 800
+}
+.recommend_wn{
+    font-size: 0.24rem;
+}
+.songListwn{
+    margin-top: 0.23rem;
+}
+.songlist{
+    margin-top: 0.3rem
+}
+.presonglistName{
+    width:2.91rem;
+    line-height: 1.5;
+    word-wrap:break-word;
+}
+.presonglist{
+    margin-top:0.37rem; 
+    height:3.9rem;
+    display: flex;
+}
+.othersonglist{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.32rem
+}
+.songlistName{
+    width:1.8rem;
+    line-height: 1.5;
+    margin-top: 0.2rem;
+    word-wrap:break-word;
+    font-size: 0.15rem;
+    padding-bottom: 0.3rem;
+}
+.discription{
+    display:flex;
+    
+}
+ .theDiscription{
+    width: 3.56rem;
+    height: 2.59rem;
+     margin-left: .3rem;
+    
+    
+}
+.songlisthead{
+    display:flex;
+    justify-content:space-between;
+    padding:0 0.32rem;
+
+}
+.discription{
+   text-align: left;
+   display: flex;
+   justify-content: space-between;
+   padding:0 0.32rem;
+}
+.dis{
+margin-top: 0.56rem;
+    display: block;
+    font-size: .12rem;
+
+}
+.fourIcon{
+   padding:0 0.70rem;   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.fourIcon p{
+    font-size: 0.33rem
+}
+
+
+
+.historyAndHot .his{
+    margin-top:0.34rem;
+    display:flex;
+    justify-content:space-between;
+   padding:0 0.36rem;   
+
+}
+/* 3.56 2.59 */

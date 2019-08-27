@@ -1,11 +1,6 @@
-import {
-    MyMusic,
-    Find,
-    CloudVillage,
-    My,
-    Video,
-    Login
-} from "@views"
+import {MyMusic, Find, CloudVillage, My, Video, Login} from "@views"
+//FindNav
+import Find_Nav from './Find_Nav';
 
 export const tabBarRoute = [
     {
@@ -56,7 +51,7 @@ export const tabBarRoute = [
             auth:true
         }
     },
-    
+
 ]
 export const noTabBarRoute=[
     {
@@ -66,7 +61,8 @@ export const noTabBarRoute=[
         meta:{
             flag:false,
         },
-    }
+    },
+    ...Find_Nav
 
 ]
 
