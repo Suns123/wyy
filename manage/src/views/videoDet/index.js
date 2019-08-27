@@ -15,14 +15,15 @@ export default class DetailDet extends Component {
 
     render() {
         let { address,relatedVideo, videoDetail, videoComment } = this.state
-        console.log(relatedVideo, "13546")
+        console.log(videoDetail, "13546")
         console.log(this.props, "detail");
         return (
             <Fragment>
                 <video src={address.urls?address.urls[0].url:""} style={{width:"100%", height: "3.438rem",}} controls></video>
                 <div className="detail">
                     <p className="title">{videoDetail.data?videoDetail.data.title:""}</p>
-                    <p className="info">{}万次观看<span className="type"></span></p>
+                    <p className="info">{videoDetail.data?videoDetail.data.playTime:""}次观看<span className="type">
+                    {videoDetail.data?videoDetail.data.videoGroup.map((item,index)=>(<a to="#" key={index}>{item.name}</a>)):""}</span></p>
                     <p><img alt="" src=""/> <span className="name"></span><i></i></p>
                 </div>
                 <div className="related">
