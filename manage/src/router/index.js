@@ -1,11 +1,6 @@
-import {
-    MyMusic,
-    Find,
-    CloudVillage,
-    My,
-    Video,
-    Login
-} from "@views"
+import {MyMusic, Find, CloudVillage, My, Video, Login} from "@views"
+//FindNav
+import Find_Nav from './Find_Nav';
 
 
 import UserAttention from "./CloudVillage"
@@ -63,7 +58,7 @@ export const tabBarRoute = [
             auth:true
         }
     },
-    
+
 ]
 export const noTabBarRoute=[
     {
@@ -74,11 +69,15 @@ export const noTabBarRoute=[
             flag:false,
         }
     },
+    {
     ...UserAttention,
     ...Private,
     ...RecentPlay,
-    ...MyFM
-
+    ...MyFM,
+    ...Find_Nav
+        
+    }
+    
 
 ]
 
