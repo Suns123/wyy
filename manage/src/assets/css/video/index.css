@@ -1,0 +1,133 @@
+body,html{
+    width:100%;
+    height: 100%;
+    line-height: 1;
+    -webkit-overflow-scrolling: touch;
+}
+body p{
+    margin: 0;
+    padding: 0;
+}
+#root{
+    width:100%;
+    height: 100%;
+}
+.App{
+    width:100%;
+    height: 100%;
+}
+.video{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.video .videoHeader{
+    background: #fff;
+    height: 1.58rem;
+    overflow: hidden;
+}
+.video .videoCenter{
+    flex: 1;
+    overflow: auto;
+}
+.videoHeaderUl{
+    display:flex;
+    overflow: auto;
+    height:0.88rem;
+    flex-shrink:1
+}
+.videoHeaderUl li a{
+    font-size:0.3rem;
+    padding:0 0.2rem;
+    min-width:2rem;
+    display:inline-block;
+    line-height:0.88rem;
+    color: #000;
+}
+.activeNav{
+    color:#f00 !important;
+    border-bottom:0.04rem solid #f00;
+    font-weight: bold;
+    height:0.88rem;
+}
+.videoContent{
+    background:#fff;
+    width:100%;
+    height:auto;
+    padding:0.2rem 0.32rem;
+    margin-bottom:0.05rem
+}
+.videoContentImgWarp{
+    position: relative;
+}
+.videoContentImg{
+    width:6.86rem;
+    height:3.86rem;
+    border-radius:0.15rem;
+}
+.videobutton{
+    width:1rem;
+    height: 1rem;
+    border: none;
+    color:rgba(255,255,255,0.7);
+    background:0;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+.videoContentP{
+    padding:0.2rem 0;
+    border-bottom:0.01rem solid #e1e1e1;
+}
+.videoContentP p{
+    line-height:0.45rem;
+    text-align:left;
+    font-size:0.3rem;
+    font-weight:600
+}
+.videoContentBottom{
+    height:0.8rem;
+    overflow:hidden;
+    display:flex;
+    justify-content:space-between;
+    padding-top:0.18rem;
+    border-top:0.01rem solid #f6f6f6;
+    margin-top:0.01rem
+}
+.videoContentBottom img{
+    width:0.6rem;
+    height:0.6rem;
+    border-radius:50%
+}
+.videoContentBottom span{
+    font-size:0.24rem;
+    font-weight:600;
+    display:inline-block;
+    margin-left:0.1rem;
+}
+.sendComment{
+    border: 0;
+    height: 100%;
+    color: #fff;
+    font-size: 0.3rem;
+    border-radius: 0.2rem;
+    background: #ff483f;
+    width: 20%;
+}
+.videoContentBottomRight{
+    display: flex;
+    width: 3.2rem;
+    justify-content: space-between;
+    margin-top: 0.1rem;
+}
+
+
+
+
+

@@ -1,0 +1,135 @@
+
+
+.cloudVillage-square{
+  padding: .18rem 0.3rem 1rem;
+  margin-top: .12rem;
+  background: #f7f7f7;
+  width: 100%;
+  
+}
+.cloudVillage-hot-comments {
+  width: 100%;
+  height: 1.4rem;
+  background: linear-gradient(to right, #5c6e78, #2c425a);
+  color: #dfe7f2;
+  padding: .32rem;
+  overflow: hidden;
+  position: relative;
+
+  .cloudVillage-hot-comments-l {
+    float: left;
+    width: 4.98rem;
+  }
+
+  .c-h-c-l-top {
+    font-size: .28rem;
+    float: left;
+  }
+
+  .cloudVillage-hot-comments-list {
+    width: 4.96rem;
+    font-size: .24rem;
+    clear: both;
+    height: .55rem;
+    line-height: .75rem;
+    text-align: left;
+    .cv-swiper-slide {
+      height: .55rem;
+      width: 4.96rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .cloudVillage-hot-comments-r {
+    float: right;
+    position: absolute;
+    right: .3rem;
+    font-family: sans-serif;
+    
+    .c-month {
+      font-size: .3rem;
+      margin-bottom: .12rem;
+      color: #fff;
+    }
+
+    .c-day {
+      font-size: .4rem;
+      font-weight: bold;
+      font-family: Arial;
+      color: #fff;
+    }
+  }
+}
+
+
+
+
+.c-m-list{
+  margin-top:.2rem;
+  height: 100%;
+  overflow: hidden;
+  
+  .mv-list{
+    height: 100%;
+    margin-bottom: .15rem;
+    border: .01rem solid white;
+    border-radius: .2rem;
+    float: left;
+    img{
+      width: 2.7rem;
+      height: auto;
+      margin-right: .1rem
+    }
+    .mv-list-b{
+      padding: .1rem .1rem .2rem .12rem;
+      width:2.7rem; 
+      .mv-name{
+        word-wrap:break-word;
+        font-size: .24rem;
+        line-height: .36rem;
+      }
+    }
+    p{
+      font-size: .26rem;
+      line-height: .36rem;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      display:-webkit-box;
+      -webkit-box-orient:vertical;
+      -webkit-line-clamp:2;
+      margin-bottom: .25rem;
+    }
+    .mv-list-user{
+      height: auto;
+      width: 100%;
+      line-height: .28rem;
+      
+      
+      img{
+        float: left;
+        width:0.28rem;
+        height:0.28rem;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: .1rem;
+      }
+  
+    }
+    .mv-artistName{ 
+      float: left;
+      width: 1.08rem;
+      font-size: .18rem;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .mv-playCount right,.iconfont right{
+      float: right;
+      padding-left: .2rem;
+      font-size: .16rem;
+      
+    }
+  }
+}

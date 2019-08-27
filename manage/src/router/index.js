@@ -7,6 +7,13 @@ import {
     Login
 } from "@views"
 
+
+import UserAttention from "./CloudVillage"
+import Private from "./CloudVillage"
+import RecentPlay from "./MyMusic"
+import MyFM from "./MyMusic"
+
+
 export const tabBarRoute = [
     {
         path:"/find",
@@ -65,8 +72,13 @@ export const noTabBarRoute=[
         component:Login,
         meta:{
             flag:false,
-        },
-    }
+        }
+    },
+    ...UserAttention,
+    ...Private,
+    ...RecentPlay,
+    ...MyFM
+
 
 ]
 
